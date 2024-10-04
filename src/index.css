@@ -3,9 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-body,
-html{
-  height: 100%;
+body{
+  height: 100vh;
 }
 .container{
   max-width: 1200px;
@@ -26,4 +25,21 @@ html{
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+}
+#root{
+  height: 100%;
+}
+.profile_wrapper{
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 5fr;
+}
+.box_profile{
+  height: 80vh;
+  background-color: #fff;
+  background-color: #2d7de6;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
