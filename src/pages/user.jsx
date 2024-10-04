@@ -21,7 +21,7 @@ export const User = () => {
   return (
     <div>
       {data.map((item) => (
-        <Link key={item.id} to={`user/detail/${item.id}`}>
+        <Link key={item.id} to={`/user/detail/${item.id}`}>
           <h1>{item.name}</h1>
         </Link>
       ))}
