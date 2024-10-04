@@ -10,8 +10,8 @@ function App() {
       <Routes>
         <Route path="/" element={<MainLayout/>}>
         <Route path="/" element={<Home />} />
-        <Route path="/user" element={<User />} />
-        <Route path="/profile" element={<Profile />} />
+        <Route path="user" element={<User />} />
+        <Route path="profile" element={<Profile />} />
         <Route path="user/detail/:userId" element={<UserDetail />}/>
         <Route path="*" element={<h1>Page not found!</h1>} />
         </Route>
